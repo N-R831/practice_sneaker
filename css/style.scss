@@ -1,0 +1,82 @@
+/**************************
+common
+**************************/
+body {
+    color: #121212;
+    font-size: 0.9rem;
+    line-height: 1.7;
+}
+
+h1 {
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+img {
+    aspect-ratio: 1.6 / 1;
+}
+
+.site-title {
+    line-height: 1px;
+}
+
+.sec-title {
+    font-size: 2.25rem;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+/**************************
+header
+**************************/
+
+#header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px;
+    position: fixed;
+    z-index: 10;
+    background: #fff;
+
+    #hamburger {
+        display: block;
+        position: fixed;
+        top: 25px;
+        right: 45px;
+        width: 30px;
+        height: 30px;
+        transition: all .5s;
+        cursor: pointer;
+        z-index: 20;
+
+        span {
+            display: block;
+            position: absolute;
+            left: 0;
+            width: 30px;
+            height: 2px;
+            background-color: #333;
+            border-radius: 4px;
+            transition: all .5s;
+        }
+
+        span:nth-child(1) {
+            top: 4px;
+        }
+
+        span:nth-child(2) {
+            top: 14px;
+        }
+
+        span:nth-child(3) {
+            bottom: 4px;
+        }
+
+    }
+}
