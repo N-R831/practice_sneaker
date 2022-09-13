@@ -142,4 +142,43 @@ main {
             }
         }
     }
+
+    #contact {
+        color: #fff;
+        background-color: #121212;
+        padding: 50px 0;
+
+        .content {
+            max-width: 1240px;
+            padding: 0 16px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+
+            .contact-info, .contact-form {
+                width: 45%;
+
+                p {
+                    margin-bottom: 30px;
+                }
+
+                input {
+                    width: 100%;
+                    background-color: #fff;
+                    padding: 10px;
+                    margin-bottom: 20px;
+                }
+
+                .button input {
+                    width: 200px;
+                    color: #fff;
+                    background-color: #121212;
+                    border: solid 1px #fff;
+                    padding: 12px 0;
+                    margin-bottom: 0;
+                    text-align: center;
+                }
+            }
+        }
+    }
 }
