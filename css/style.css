@@ -22,7 +22,8 @@ h1 {
 }
 
 img {
-  aspect-ratio: 1.6/1;
+  aspect-ratio: 3/2;
+  max-width: 100%;
 }
 
 .site-title {
@@ -76,4 +77,52 @@ header
 }
 #header #hamburger span:nth-child(3) {
   bottom: 4px;
+}
+
+/**************************
+main
+**************************/
+main #pickup {
+  width: 100%;
+  padding: 100px 0 50px 0;
+}
+main #pickup ul {
+  display: flex;
+  justify-content: space-between;
+}
+main #pickup ul li {
+  width: 20%;
+  padding: 30px;
+}
+main #feature {
+  max-width: 1240px;
+  padding: 100px 16px 50px 16px;
+  margin: -50px auto 10px auto;
+}
+main #feature .grid {
+  display: grid;
+  gap: 26px;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+main #feature .grid .item {
+  transition: all 0.3s ease;
+  box-shadow: 0 0 8px 4px #ccc;
+}
+main #feature .grid .item img {
+  vertical-align: top;
+}
+main #feature .grid .item .item-content {
+  padding: 30px;
+}
+main #feature .grid .item .item-content .item-cat {
+  font-size: 0.75rem;
+  margin-bottom: 20px;
+}
+main #feature .grid .item .item-content .item-text {
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+main #feature .grid .item .item-content .item-date {
+  font-size: 0.75rem;
+  text-align: right;
 }/*# sourceMappingURL=style.css.map */

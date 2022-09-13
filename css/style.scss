@@ -18,7 +18,8 @@ h1 {
 }
 
 img {
-    aspect-ratio: 1.6 / 1;
+    aspect-ratio: 3 / 2;
+    max-width: 100%;
 }
 
 .site-title {
@@ -78,5 +79,67 @@ header
             bottom: 4px;
         }
 
+    }
+}
+
+/**************************
+main
+**************************/
+
+main {
+    
+    #pickup {
+        width: 100%;
+        padding: 100px 0 50px 0;
+
+        ul {
+            display: flex;
+            justify-content: space-between;
+
+            li {
+                width: 20%;
+                padding: 30px;
+            }
+        }
+    }
+
+    #feature {
+        max-width: 1240px;
+        padding: 100px 16px 50px 16px;
+        margin: -50px auto 10px auto;
+
+        .grid {
+            display: grid;
+            gap: 26px;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+
+            .item {
+                transition: all 0.3s ease;
+                box-shadow: 0 0 8px 4px #ccc;
+
+                img {
+                    vertical-align: top;
+                }
+
+                .item-content {
+                    padding: 30px;
+
+                    .item-cat {
+                        font-size: 0.75rem;
+                        margin-bottom: 20px;
+                    }
+
+                    .item-text {
+                        font-weight: bold;
+                        margin-bottom: 20px;
+                    }
+
+                    .item-date {
+                        font-size: 0.75rem;
+                        text-align: right;
+                    }
+                }
+            }
+        }
     }
 }
