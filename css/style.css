@@ -82,6 +82,9 @@ header
 /**************************
 main
 **************************/
+main video {
+  width: 100%;
+}
 main #pickup {
   width: 100%;
   padding: 100px 0 50px 0;
@@ -158,4 +161,15 @@ main #contact .content .contact-info .button input, main #contact .content .cont
   padding: 12px 0;
   margin-bottom: 0;
   text-align: center;
+}
+
+/**************************
+footer
+**************************/
+#footer {
+  color: #fff;
+  background: #121212;
+  text-align: center;
+  padding: 10px;
+  font-size: 0.75rem;
 }/*# sourceMappingURL=style.css.map */

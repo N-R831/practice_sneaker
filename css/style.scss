@@ -87,6 +87,10 @@ main
 **************************/
 
 main {
+
+    video {
+        width: 100%;
+    }
     
     #pickup {
         width: 100%;
@@ -181,4 +185,15 @@ main {
             }
         }
     }
+}
+
+/**************************
+footer
+**************************/
+#footer {
+    color: #fff;
+    background: #121212;
+    text-align: center;
+    padding: 10px;
+    font-size: 0.75rem;
 }
