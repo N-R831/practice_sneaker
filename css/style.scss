@@ -126,14 +126,12 @@ header
 
     #hamburger.open {
         span:nth-child(1) {
-            transform: translateY(10px);
-            rotate: -315deg;
+            transform: translateY(10px) rotate(-315deg);
             background-color: #fff;
         }
 
         span:nth-child(3) {
-            transform: translateY(-10px);
-            rotate: 315deg;
+            transform: translateY(-10px) rotate(315deg);
             background-color: #fff;
         }
 
